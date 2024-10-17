@@ -31,7 +31,7 @@ GIF created with LiceCap
 
 ## Notes
 
-A challenge I encountered while building the app was how to display only the attributes not on the ban list. Additionally, how to keep that state for every API call after.
+A challenge I encountered while building the app was how to display only the attributes not on the ban list. Additionally, how to keep that state for every API call after. I found the documentation to be lacking specifics about the API calls so it took several attempts and getting the desired data from the API but ulitmately, I was able to get the necessary information for the cat attributes.
 
 ## License
 
