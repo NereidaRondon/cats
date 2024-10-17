@@ -1,30 +1,25 @@
-# Web Development Project 2 - _Flashcards: Git Basics_
+# Web Development Project 4 - Cats
 
 Submitted by: **Nereida Rondon**
 
-This web app: **Helps review and learn basic Git commands and concepts essential for version control and collaboration with GitHub.**
+This web app: **Randomly presents information about different cat breeds**
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data**
+- [x] **Only one item/API call is viewable at a time**
+- [x] **API calls should appear random to the user**
+- [x] **At least one image is displayed per API call**
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban list**
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
 
 The following **optional** features are implemented:
 
-- [x] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-- [ ] _visual style implemented_
-
-The following **additional** features are implemented:
-
-- [x] Implemented a 'Previous Card' button that displays the previous card.
+- [x] Multiple types of attributes can be added to the ban list
 
 ## Video Walkthrough
 
@@ -36,7 +31,7 @@ GIF created with LiceCap
 
 ## Notes
 
-A challenge I enccountered while building the app was how to maintain a history of previouis cards so that the previous card button works as intended. Design wise, I had to make sure the card size was consistent no matter how much text was presented. At first, clicking through the cards resulted in different card sizes because the size depended on the amount of text being displayed.
+A challenge I encountered while building the app was how to display only the attributes not on the ban list. Additionally, how to keep that state for every API call after.
 
 ## License
 
